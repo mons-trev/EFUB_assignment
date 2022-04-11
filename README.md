@@ -33,7 +33,6 @@ PRIMARY KEY(team_id)
 select member.name, position, email, birth_date, swsteam, sws.name
 from member, sws
 where member.swsteam = sws.team_id;
-
 ```
 
 
